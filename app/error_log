@@ -1,0 +1,391 @@
+[16-Oct-2020 14:11:39 Asia/Manila] PHP Notice:  Undefined index: domain in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 17
+[16-Oct-2020 14:11:39 Asia/Manila] PHP Notice:  Undefined index: userToken in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 17
+[16-Oct-2020 14:11:39 Asia/Manila] PHP Notice:  Undefined index: firstname in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 22
+[16-Oct-2020 14:11:39 Asia/Manila] PHP Notice:  Undefined index: lastname in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 23
+[16-Oct-2020 14:11:39 Asia/Manila] PHP Notice:  Undefined index: domain in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 27
+[16-Oct-2020 14:11:39 Asia/Manila] PHP Notice:  Undefined index: userToken in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 28
+[16-Oct-2020 14:11:39 Asia/Manila] PHP Notice:  Undefined index: ratePerHour in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 29
+[16-Oct-2020 14:11:39 Asia/Manila] PHP Notice:  Undefined variable: userid in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 43
+[16-Oct-2020 14:11:39 Asia/Manila] PHP Notice:  Undefined index: domain in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 34
+[16-Oct-2020 14:11:39 Asia/Manila] PHP Notice:  Undefined index: userToken in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 34
+[16-Oct-2020 14:12:15 Asia/Manila] PHP Notice:  Undefined index: domain in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 19
+[16-Oct-2020 14:12:15 Asia/Manila] PHP Notice:  Undefined index: userToken in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 19
+[16-Oct-2020 14:12:16 Asia/Manila] PHP Notice:  Undefined index: domain in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 19
+[16-Oct-2020 14:12:16 Asia/Manila] PHP Notice:  Undefined index: userToken in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 19
+[16-Oct-2020 14:12:17 Asia/Manila] PHP Notice:  Undefined index: domain in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 19
+[16-Oct-2020 14:12:17 Asia/Manila] PHP Notice:  Undefined index: userToken in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 19
+[16-Oct-2020 14:12:17 Asia/Manila] PHP Notice:  Undefined index: domain in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 19
+[16-Oct-2020 14:12:17 Asia/Manila] PHP Notice:  Undefined index: userToken in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 19
+[16-Oct-2020 15:03:59 Asia/Manila] PHP Notice:  Undefined variable: userid in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 43
+[16-Oct-2020 15:04:03 Asia/Manila] PHP Notice:  Undefined index: domain in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 22
+[16-Oct-2020 15:04:03 Asia/Manila] PHP Notice:  Undefined index: userToken in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 22
+[16-Oct-2020 15:04:03 Asia/Manila] PHP Notice:  Undefined index: firstname in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 27
+[16-Oct-2020 15:04:03 Asia/Manila] PHP Notice:  Undefined index: lastname in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 28
+[16-Oct-2020 15:04:03 Asia/Manila] PHP Notice:  Undefined index: domain in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 32
+[16-Oct-2020 15:04:03 Asia/Manila] PHP Notice:  Undefined index: userToken in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 33
+[16-Oct-2020 15:04:03 Asia/Manila] PHP Notice:  Undefined index: ratePerHour in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 34
+[16-Oct-2020 15:04:03 Asia/Manila] PHP Notice:  Undefined variable: userid in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 43
+[16-Oct-2020 15:04:03 Asia/Manila] PHP Notice:  Undefined index: domain in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 39
+[16-Oct-2020 15:04:03 Asia/Manila] PHP Notice:  Undefined index: userToken in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 39
+[16-Oct-2020 15:18:54 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to undefined method Session::destroy() in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php:81
+Stack trace:
+#0 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(151): RequestAccess->logout('api')
+#1 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(160): Bootstrap->loadApi()
+#2 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(19): Bootstrap->loadApp()
+#3 /home/breaqidb/app.breakthrough-e.com/public/index.php(20): Bootstrap->__construct()
+#4 {main}
+  thrown in /home/breaqidb/app.breakthrough-e.com/app/api/RequestAccess.php on line 81
+[16-Oct-2020 16:30:52 Asia/Manila] PHP Notice:  Undefined variable: userid in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 43
+[16-Oct-2020 16:39:28 Asia/Manila] PHP Notice:  Undefined variable: userid in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 43
+[16-Oct-2020 16:55:32 Asia/Manila] PHP Notice:  Undefined variable: userid in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 43
+[16-Oct-2020 17:16:58 Asia/Manila] PHP Notice:  Undefined variable: userid in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 43
+[16-Oct-2020 17:33:39 Asia/Manila] PHP Notice:  Undefined variable: userid in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 43
+[16-Oct-2020 17:52:34 Asia/Manila] PHP Notice:  Undefined index: id in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 24
+[16-Oct-2020 17:52:34 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 17:53:13 Asia/Manila] PHP Notice:  Undefined index: id in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 24
+[16-Oct-2020 17:53:13 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 17:57:49 Asia/Manila] PHP Notice:  Undefined index: id in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 24
+[16-Oct-2020 17:57:49 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 17:57:50 Asia/Manila] PHP Notice:  Undefined index: id in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 24
+[16-Oct-2020 17:57:50 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 17:57:51 Asia/Manila] PHP Notice:  Undefined index: id in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 24
+[16-Oct-2020 17:57:51 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 17:57:52 Asia/Manila] PHP Notice:  Undefined index: id in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 24
+[16-Oct-2020 17:57:52 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 17:57:54 Asia/Manila] PHP Notice:  Undefined index: id in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 24
+[16-Oct-2020 17:57:54 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 17:58:01 Asia/Manila] PHP Notice:  Undefined index: id in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 24
+[16-Oct-2020 17:58:01 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 17:58:40 Asia/Manila] PHP Notice:  Undefined index: id in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 24
+[16-Oct-2020 17:58:40 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 17:58:40 Asia/Manila] PHP Notice:  Undefined index: id in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 24
+[16-Oct-2020 17:58:40 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 17:58:41 Asia/Manila] PHP Notice:  Undefined index: id in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 24
+[16-Oct-2020 17:58:41 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 17:58:42 Asia/Manila] PHP Notice:  Undefined index: id in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 24
+[16-Oct-2020 17:58:42 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 17:58:44 Asia/Manila] PHP Notice:  Undefined index: id in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 24
+[16-Oct-2020 17:58:44 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 18:02:38 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 18:02:40 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 18:02:43 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 18:02:45 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 18:02:57 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 18:03:03 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 18:03:04 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 18:03:20 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 18:03:22 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 18:03:23 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 18:03:24 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 18:03:25 Asia/Manila] PHP Notice:  Undefined variable: timesheets in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 26
+[16-Oct-2020 18:07:33 Asia/Manila] PHP Notice:  Undefined variable: userid in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 43
+[16-Oct-2020 18:11:14 Asia/Manila] PHP Notice:  Undefined property: TimesheetModel::$user in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 47
+[16-Oct-2020 18:11:14 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function single() on null in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php:47
+Stack trace:
+#0 /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php(13): TimesheetModel->getAllWithMeta()
+#1 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(151): Timesheet->index('api')
+#2 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(160): Bootstrap->loadApi()
+#3 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(19): Bootstrap->loadApp()
+#4 /home/breaqidb/app.breakthrough-e.com/public/index.php(20): Bootstrap->__construct()
+#5 {main}
+  thrown in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 47
+[16-Oct-2020 18:11:20 Asia/Manila] PHP Notice:  Undefined property: TimesheetModel::$user in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 47
+[16-Oct-2020 18:11:20 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function single() on null in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php:47
+Stack trace:
+#0 /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php(13): TimesheetModel->getAllWithMeta()
+#1 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(151): Timesheet->index('api')
+#2 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(160): Bootstrap->loadApi()
+#3 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(19): Bootstrap->loadApp()
+#4 /home/breaqidb/app.breakthrough-e.com/public/index.php(20): Bootstrap->__construct()
+#5 {main}
+  thrown in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 47
+[16-Oct-2020 18:23:45 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 16
+[16-Oct-2020 18:32:02 Asia/Manila] PHP Notice:  Trying to get property 'id' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 63
+[16-Oct-2020 18:32:02 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 62
+[16-Oct-2020 18:32:02 Asia/Manila] PHP Notice:  Undefined property: Timesheet::$timelog in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 23
+[16-Oct-2020 18:32:02 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function all() on null in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php:23
+Stack trace:
+#0 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(151): Timesheet->show('api', '1')
+#1 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(160): Bootstrap->loadApi()
+#2 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(19): Bootstrap->loadApp()
+#3 /home/breaqidb/app.breakthrough-e.com/public/index.php(20): Bootstrap->__construct()
+#4 {main}
+  thrown in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 23
+[16-Oct-2020 18:32:16 Asia/Manila] PHP Notice:  Trying to get property 'id' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 63
+[16-Oct-2020 18:32:16 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 62
+[16-Oct-2020 18:32:16 Asia/Manila] PHP Notice:  Undefined property: Timesheet::$timelog in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 23
+[16-Oct-2020 18:32:16 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function all() on null in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php:23
+Stack trace:
+#0 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(151): Timesheet->show('api', '1')
+#1 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(160): Bootstrap->loadApi()
+#2 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(19): Bootstrap->loadApp()
+#3 /home/breaqidb/app.breakthrough-e.com/public/index.php(20): Bootstrap->__construct()
+#4 {main}
+  thrown in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 23
+[16-Oct-2020 18:32:38 Asia/Manila] PHP Notice:  Trying to get property 'id' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 63
+[16-Oct-2020 18:32:39 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 62
+[16-Oct-2020 18:32:39 Asia/Manila] PHP Notice:  Undefined property: Timesheet::$timelog in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 23
+[16-Oct-2020 18:32:39 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function all() on null in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php:23
+Stack trace:
+#0 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(151): Timesheet->show('api', '2')
+#1 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(160): Bootstrap->loadApi()
+#2 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(19): Bootstrap->loadApp()
+#3 /home/breaqidb/app.breakthrough-e.com/public/index.php(20): Bootstrap->__construct()
+#4 {main}
+  thrown in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 23
+[16-Oct-2020 18:32:40 Asia/Manila] PHP Notice:  Trying to get property 'id' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 63
+[16-Oct-2020 18:32:40 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 62
+[16-Oct-2020 18:32:40 Asia/Manila] PHP Notice:  Undefined property: Timesheet::$timelog in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 23
+[16-Oct-2020 18:32:40 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function all() on null in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php:23
+Stack trace:
+#0 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(151): Timesheet->show('api', '1')
+#1 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(160): Bootstrap->loadApi()
+#2 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(19): Bootstrap->loadApp()
+#3 /home/breaqidb/app.breakthrough-e.com/public/index.php(20): Bootstrap->__construct()
+#4 {main}
+  thrown in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 23
+[16-Oct-2020 18:33:34 Asia/Manila] PHP Notice:  Trying to get property 'id' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 63
+[16-Oct-2020 18:33:34 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 62
+[16-Oct-2020 18:36:31 Asia/Manila] PHP Fatal error:  Uncaught Error: Class 'TimesheetMetaModel' not found in /home/breaqidb/app.breakthrough-e.com/app/functions/uncommon.php:216
+Stack trace:
+#0 /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php(12): model('TimesheetMetaMo...')
+#1 /home/breaqidb/app.breakthrough-e.com/app/functions/uncommon.php(216): TimesheetModel->__construct()
+#2 /home/breaqidb/app.breakthrough-e.com/app/models/TimelogModel.php(11): model('TimesheetModel')
+#3 /home/breaqidb/app.breakthrough-e.com/app/functions/uncommon.php(216): TimelogModel->__construct()
+#4 /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php(8): model('TimelogModel')
+#5 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(173): Timekeeping->__construct()
+#6 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(19): Bootstrap->loadApp()
+#7 /home/breaqidb/app.breakthrough-e.com/public/index.php(20): Bootstrap->__construct()
+#8 {main}
+  thrown in /home/breaqidb/app.breakthrough-e.com/app/functions/uncommon.php on line 216
+[16-Oct-2020 18:36:34 Asia/Manila] PHP Notice:  Undefined property: Timesheet::$timelog in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 32
+[16-Oct-2020 18:36:34 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function all() on null in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php:32
+Stack trace:
+#0 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(151): Timesheet->show('1')
+#1 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(160): Bootstrap->loadApi()
+#2 /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php(19): Bootstrap->loadApp()
+#3 /home/breaqidb/app.breakthrough-e.com/public/index.php(20): Bootstrap->__construct()
+#4 {main}
+  thrown in /home/breaqidb/app.breakthrough-e.com/app/api/Timesheet.php on line 32
+[16-Oct-2020 18:44:42 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 16
+[16-Oct-2020 18:44:53 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 16
+[17-Oct-2020 11:13:03 Asia/Manila] PHP Notice:  Undefined variable: userid in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 43
+[17-Oct-2020 12:15:08 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 23
+[17-Oct-2020 12:15:08 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 23
+[17-Oct-2020 12:15:08 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 27
+[17-Oct-2020 12:15:08 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 27
+[17-Oct-2020 12:15:08 Asia/Manila] PHP Warning:  Illegal string offset 'firstname' in /home/breaqidb/app.breakthrough-e.com/app/views/dashboard/index.php on line 4
+[17-Oct-2020 12:15:08 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/views/dashboard/index.php on line 4
+[17-Oct-2020 18:09:02 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 16
+[17-Oct-2020 18:15:38 Asia/Manila] PHP Notice:  Undefined variable: userid in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 43
+[17-Oct-2020 18:16:55 Asia/Manila] PHP Notice:  Undefined variable: userid in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 43
+[17-Oct-2020 18:17:37 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 16
+[17-Oct-2020 18:17:42 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 16
+[17-Oct-2020 18:18:04 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 16
+[17-Oct-2020 18:18:42 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 16
+[17-Oct-2020 18:19:19 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 16
+[17-Oct-2020 18:31:58 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 16
+[17-Oct-2020 18:48:25 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 16
+[17-Oct-2020 18:48:50 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 16
+[17-Oct-2020 18:49:21 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 16
+[17-Oct-2020 18:55:08 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 16
+[17-Oct-2020 18:55:57 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 16
+[17-Oct-2020 18:58:25 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 16
+[17-Oct-2020 19:02:37 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 21
+[17-Oct-2020 19:12:51 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 38
+[17-Oct-2020 19:12:51 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 38
+[17-Oct-2020 19:12:51 Asia/Manila] PHP Notice:  Trying to get property 'punch_time' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimelogModel.php on line 34
+[17-Oct-2020 19:12:51 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 18
+[17-Oct-2020 19:12:51 Asia/Manila] PHP Notice:  Trying to get property 'session' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimelogModel.php on line 41
+[17-Oct-2020 19:12:51 Asia/Manila] PHP Notice:  Trying to get property 'punch_time' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimelogModel.php on line 48
+[17-Oct-2020 19:12:51 Asia/Manila] PHP Notice:  Trying to get property 'rate_per_hour' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimelogModel.php on line 51
+[17-Oct-2020 19:12:51 Asia/Manila] PHP Notice:  Trying to get property 'rate_per_hour' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimelogModel.php on line 56
+[17-Oct-2020 19:12:51 Asia/Manila] PHP Notice:  Trying to get property 'id' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimelogModel.php on line 57
+[17-Oct-2020 19:12:52 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 23
+[17-Oct-2020 19:12:52 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 23
+[17-Oct-2020 19:12:52 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 27
+[17-Oct-2020 19:12:52 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 27
+[17-Oct-2020 19:12:52 Asia/Manila] PHP Warning:  Illegal string offset 'firstname' in /home/breaqidb/app.breakthrough-e.com/app/views/dashboard/index.php on line 4
+[17-Oct-2020 19:12:52 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/views/dashboard/index.php on line 4
+[17-Oct-2020 19:14:03 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 17
+[17-Oct-2020 19:14:37 Asia/Manila] PHP Notice:  Trying to get property 'firstname' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 53
+[17-Oct-2020 19:14:37 Asia/Manila] PHP Notice:  Trying to get property 'lastname' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 53
+[17-Oct-2020 19:14:51 Asia/Manila] PHP Notice:  Trying to get property 'firstname' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 53
+[17-Oct-2020 19:14:51 Asia/Manila] PHP Notice:  Trying to get property 'lastname' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 53
+[18-Oct-2020 01:00:13 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 23
+[18-Oct-2020 01:00:13 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 23
+[18-Oct-2020 01:00:13 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 27
+[18-Oct-2020 01:00:13 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 27
+[18-Oct-2020 01:00:13 Asia/Manila] PHP Warning:  Illegal string offset 'firstname' in /home/breaqidb/app.breakthrough-e.com/app/views/dashboard/index.php on line 4
+[18-Oct-2020 01:00:13 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/views/dashboard/index.php on line 4
+[18-Oct-2020 01:00:14 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 23
+[18-Oct-2020 01:00:14 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 23
+[18-Oct-2020 01:00:14 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 27
+[18-Oct-2020 01:00:14 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 27
+[18-Oct-2020 01:00:14 Asia/Manila] PHP Warning:  Illegal string offset 'firstname' in /home/breaqidb/app.breakthrough-e.com/app/views/dashboard/index.php on line 4
+[18-Oct-2020 01:00:14 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/views/dashboard/index.php on line 4
+[18-Oct-2020 01:03:51 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 17
+[18-Oct-2020 10:28:57 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 23
+[18-Oct-2020 10:28:57 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 23
+[18-Oct-2020 10:28:57 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 27
+[18-Oct-2020 10:28:57 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 27
+[18-Oct-2020 10:28:57 Asia/Manila] PHP Warning:  Illegal string offset 'firstname' in /home/breaqidb/app.breakthrough-e.com/app/views/dashboard/index.php on line 4
+[18-Oct-2020 10:28:57 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/views/dashboard/index.php on line 4
+[19-Oct-2020 18:35:19 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 23
+[19-Oct-2020 18:35:19 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 23
+[19-Oct-2020 18:35:19 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 27
+[19-Oct-2020 18:35:19 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Dashboard.php on line 27
+[19-Oct-2020 18:35:20 Asia/Manila] PHP Warning:  Illegal string offset 'firstname' in /home/breaqidb/app.breakthrough-e.com/app/views/dashboard/index.php on line 4
+[19-Oct-2020 18:35:20 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/views/dashboard/index.php on line 4
+[20-Oct-2020 02:28:54 Asia/Manila] PHP Notice:  Trying to get property 'firstname' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 63
+[20-Oct-2020 02:28:54 Asia/Manila] PHP Notice:  Trying to get property 'lastname' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 63
+[20-Oct-2020 15:21:24 Asia/Manila] PHP Notice:  Undefined index: arrNames in /home/breaqidb/app.breakthrough-e.com/app/controllers/TaskPhoto.php on line 17
+[20-Oct-2020 15:31:18 Asia/Manila] PHP Notice:  Trying to get property 'firstname' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 63
+[20-Oct-2020 15:31:18 Asia/Manila] PHP Notice:  Trying to get property 'lastname' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimesheetModel.php on line 63
+[20-Oct-2020 16:31:07 Asia/Manila] PHP Notice:  Undefined variable: userid in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 43
+[24-Oct-2020 20:46:22 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[24-Oct-2020 20:46:22 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[24-Oct-2020 20:54:58 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[24-Oct-2020 20:54:58 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[24-Oct-2020 21:31:17 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 39
+[24-Oct-2020 21:31:17 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 39
+[24-Oct-2020 21:37:42 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 29
+[24-Oct-2020 21:37:42 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 29
+[24-Oct-2020 22:10:29 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 12
+[24-Oct-2020 22:10:29 Asia/Manila] PHP Notice:  Trying to get property 'rate_per_hour' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimelogModel.php on line 54
+[24-Oct-2020 22:10:29 Asia/Manila] PHP Notice:  Trying to get property 'rate_per_day' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimelogModel.php on line 59
+[24-Oct-2020 23:52:47 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 39
+[24-Oct-2020 23:52:47 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 39
+[25-Oct-2020 00:54:20 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 00:54:20 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 01:41:25 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 39
+[25-Oct-2020 01:41:25 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 39
+[25-Oct-2020 12:16:58 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 29
+[25-Oct-2020 12:16:58 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 29
+[25-Oct-2020 12:50:19 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 12
+[25-Oct-2020 12:50:19 Asia/Manila] PHP Notice:  Trying to get property 'rate_per_hour' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimelogModel.php on line 54
+[25-Oct-2020 12:50:19 Asia/Manila] PHP Notice:  Trying to get property 'rate_per_day' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimelogModel.php on line 59
+[25-Oct-2020 15:26:43 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:26:43 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:26:45 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:26:45 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:26:50 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:26:50 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:26:52 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:26:52 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:26:53 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:26:53 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:26:59 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:26:59 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:27:06 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:27:06 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:27:15 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:27:15 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:27:50 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:27:50 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:27:50 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:27:50 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:27:56 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:27:56 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:27:57 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:27:57 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:27:58 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:27:58 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:27:59 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:27:59 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:27:59 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:27:59 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:27:59 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:27:59 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:27:59 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:27:59 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:28:06 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:28:06 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:50:39 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:50:39 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:50:50 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:50:50 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:50:54 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:50:54 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:52:01 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:52:01 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:52:13 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 15:52:13 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 15:59:58 Asia/Manila] PHP Warning:  require_once(/home/breaqidb/app.breakthrough-e.com/app/api/Home.php): failed to open stream: No such file or directory in /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php on line 135
+[25-Oct-2020 15:59:58 Asia/Manila] PHP Fatal error:  require_once(): Failed opening required '/home/breaqidb/app.breakthrough-e.com/app/api/Home.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php on line 135
+[25-Oct-2020 16:27:02 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 16:27:02 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 16:27:46 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 16:27:46 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 16:28:35 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 16:28:35 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 16:28:39 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 16:28:39 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 16:29:35 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 16:29:35 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 16:29:40 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 16:29:40 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 16:29:43 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 16:29:43 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 16:29:44 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 16:29:44 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 17:43:43 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 17:43:43 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 17:45:14 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 17:45:14 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 17:45:40 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 17:45:40 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 17:46:38 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 17:46:38 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 17:46:46 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 17:46:46 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 18:08:10 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 18:08:10 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 18:08:11 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 18:08:11 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 18:08:44 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 18:08:44 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 18:24:51 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 18:24:51 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 18:57:11 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[25-Oct-2020 18:57:11 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[25-Oct-2020 20:40:25 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 29
+[25-Oct-2020 20:40:25 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 29
+[25-Oct-2020 21:15:16 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 12
+[25-Oct-2020 21:15:16 Asia/Manila] PHP Notice:  Trying to get property 'rate_per_hour' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimelogModel.php on line 54
+[25-Oct-2020 21:15:16 Asia/Manila] PHP Notice:  Trying to get property 'rate_per_day' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimelogModel.php on line 59
+[26-Oct-2020 08:02:07 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[26-Oct-2020 08:02:07 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[26-Oct-2020 08:35:46 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 39
+[26-Oct-2020 08:35:46 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 39
+[26-Oct-2020 09:11:54 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[26-Oct-2020 09:11:54 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[26-Oct-2020 09:44:52 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[26-Oct-2020 09:44:52 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[26-Oct-2020 09:45:11 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[26-Oct-2020 09:45:11 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[26-Oct-2020 09:45:17 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[26-Oct-2020 09:45:17 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[26-Oct-2020 09:45:17 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[26-Oct-2020 09:45:17 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[26-Oct-2020 09:46:14 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[26-Oct-2020 09:46:14 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[26-Oct-2020 12:08:35 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 29
+[26-Oct-2020 12:08:35 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 29
+[26-Oct-2020 12:40:12 Asia/Manila] PHP Warning:  Creating default object from empty value in /home/breaqidb/app.breakthrough-e.com/app/models/UserModel.php on line 12
+[26-Oct-2020 12:40:12 Asia/Manila] PHP Notice:  Trying to get property 'rate_per_hour' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimelogModel.php on line 54
+[26-Oct-2020 12:40:12 Asia/Manila] PHP Notice:  Trying to get property 'rate_per_day' of non-object in /home/breaqidb/app.breakthrough-e.com/app/models/TimelogModel.php on line 59
+[26-Oct-2020 14:28:05 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[26-Oct-2020 14:28:05 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[26-Oct-2020 15:43:18 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 39
+[26-Oct-2020 15:43:18 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 39
+[26-Oct-2020 15:44:50 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 323
+[26-Oct-2020 15:44:50 Asia/Manila] PHP Warning:  getimagesize(): Filename cannot be empty in /home/breaqidb/app.breakthrough-e.com/app/libraries/bulletproof/vendor/samayo/bulletproof/src/bulletproof.php on line 339
+[26-Oct-2020 16:58:38 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 39
+[26-Oct-2020 16:58:38 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 39
+[26-Oct-2020 17:12:04 Asia/Manila] PHP Warning:  require_once(/home/breaqidb/app.breakthrough-e.com/app/api/Home.php): failed to open stream: No such file or directory in /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php on line 135
+[26-Oct-2020 17:12:04 Asia/Manila] PHP Fatal error:  require_once(): Failed opening required '/home/breaqidb/app.breakthrough-e.com/app/api/Home.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/breaqidb/app.breakthrough-e.com/app/core/Bootstrap.php on line 135
+[26-Oct-2020 17:16:48 Asia/Manila] PHP Warning:  Invalid argument supplied for foreach() in /home/breaqidb/app.breakthrough-e.com/app/api/AutomaticClockout.php on line 17
+[26-Oct-2020 17:16:50 Asia/Manila] PHP Warning:  Invalid argument supplied for foreach() in /home/breaqidb/app.breakthrough-e.com/app/api/AutomaticClockout.php on line 17
+[26-Oct-2020 17:36:03 Asia/Manila] PHP Warning:  Illegal string offset 'id' in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 39
+[26-Oct-2020 17:36:03 Asia/Manila] PHP Notice:  Uninitialized string offset: 0 in /home/breaqidb/app.breakthrough-e.com/app/controllers/Timekeeping.php on line 39
